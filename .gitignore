@@ -1,18 +1,19 @@
 # Server
-server/
 server/dist
 server/node_modules
 server/.env
 
 # Client
-client/
 client/dist
 client/node_modules
 
 # Shared
-shared/
 shared/dist
 shared/node_modules
+
+# Root
+node_modules
+.env
 
 # Logs
 *.log
