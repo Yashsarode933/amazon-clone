@@ -1,0 +1,20 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack e-commerce clone for portfolio",
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "devDependencies": {
+    "prisma": "^5.10.0"
+  }
+}
